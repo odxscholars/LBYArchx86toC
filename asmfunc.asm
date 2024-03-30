@@ -11,6 +11,10 @@ global asm_dot_product
 asm_dot_product: 
     mov rax, 0
     xorps xmm0, xmm0
+
+
+
+
     dot_prod_calc:
     cmp rax, r8
     JE FINIS

@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A2F7A3-8A00-4BEE-943A-EC0F13B4A463}|LBYArchx86toC.vcxproj|C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\asmfunc.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{70A2F7A3-8A00-4BEE-943A-EC0F13B4A463}|LBYArchx86toC.vcxproj|solutionrelative:asmfunc.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A2F7A3-8A00-4BEE-943A-EC0F13B4A463}|LBYArchx86toC.vcxproj|C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\c_kernel.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70A2F7A3-8A00-4BEE-943A-EC0F13B4A463}|LBYArchx86toC.vcxproj|solutionrelative:c_kernel.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A2F7A3-8A00-4BEE-943A-EC0F13B4A463}|LBYArchx86toC.vcxproj|C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70A2F7A3-8A00-4BEE-943A-EC0F13B4A463}|LBYArchx86toC.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "c_kernel.c",
+              "DocumentMoniker": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\c_kernel.c",
+              "RelativeDocumentMoniker": "c_kernel.c",
+              "ToolTip": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\c_kernel.c",
+              "RelativeToolTip": "c_kernel.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-29T12:53:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-29T10:34:16.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "asmfunc.asm",
+              "DocumentMoniker": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\asmfunc.asm",
+              "RelativeDocumentMoniker": "asmfunc.asm",
+              "ToolTip": "C:\\Users\\shem\\source\\repos\\LBYArchx86toC\\asmfunc.asm",
+              "RelativeToolTip": "asmfunc.asm",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-29T10:34:57.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

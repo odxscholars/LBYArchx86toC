@@ -1,4 +1,2 @@
-﻿  main.c
-C:\Users\shem\source\repos\LBYArchx86toC\main.c(69,43): warning C4244: 'function': conversion from 'll' to 'int', possible loss of data
-C:\Users\shem\source\repos\LBYArchx86toC\main.c(28,9): warning C4244: 'initializing': conversion from 'double' to 'll', possible loss of data
+﻿  Performing Custom Build Tools
   LBYArchx86toC.vcxproj -> C:\Users\shem\source\repos\LBYArchx86toC\x64\Debug\LBYArchx86toC.exe

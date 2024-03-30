@@ -23,7 +23,8 @@ int main() {
 	float c_ans= 0.0;
 
 	//vector and n initializations
-	int exp = 24;
+	int nRuns = 30;
+	int exp = 25;
 	printf("%d\n", exp);
 	ll n = pow(2,exp);
 	printf("n^%d: %lld\n",exp, n);
@@ -54,25 +55,29 @@ int main() {
 
 	// function calls
 	clock_t begin = clock();
-	asm_ans = asm_dot_product(arr1, arr2, n);
-	
-
+	for (int i = 0; i < nRuns; i++) {
+		asm_ans = asm_dot_product(arr1, arr2, n);
+	}
 	clock_t end = clock();
 	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 	printf("asm return value: %.2f\n", asm_ans);
-	printf("C execution time (in seconds): %lf\n", time_spent);
-	printf("C execution time (in milliseconds): %lf\n\n\n\n\n", time_spent*1000);
+	printf("Average execution time in milliseconds (%d iterations): %lf\n", nRuns, (time_spent * 1000) / ((float)nRuns));
+	printf("ASM execution time (in seconds): %lf\n", time_spent);
+	printf("ASM execution time (in milliseconds): %lf\n\n\n\n\n", time_spent*1000);
 
 
 
 	begin = clock();
-	c_ans = dot_product_c_kernel(arr1, arr2, n);
+	for (int i = 0; i < nRuns; i++) {
+		c_ans = dot_product_c_kernel(arr1, arr2, n);
+	}
 	
 	end = clock();
 	time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 	printf("C return value: %.2f\n", c_ans);
-	printf("ASM execution time (in seconds): %lf\n", time_spent);
-	printf("ASM execution time (in milliseconds): %lf\n", time_spent*1000);
+	printf("Average execution time in milliseconds (%d iterations): %lf\n", nRuns, (time_spent*1000)/ ((float) nRuns) );
+	printf("C execution time (in seconds): %lf\n", time_spent);
+	printf("C execution time (in milliseconds): %lf\n", time_spent*1000);
 	
 
 	
