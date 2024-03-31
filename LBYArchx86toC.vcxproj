@@ -146,14 +146,6 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">asmfunc.obj</Outputs>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="hello.asm">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </None>
-    <None Include="mult_params.asm">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </None>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

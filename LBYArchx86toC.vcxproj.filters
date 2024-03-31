@@ -27,12 +27,4 @@
       <Filter>Source Files</Filter>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="hello.asm">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="mult_params.asm">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
 </Project>
