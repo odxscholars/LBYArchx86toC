@@ -24,4 +24,4 @@ The graph shows the time comparison (in milliseconds) of the two kernels as the 
 
 _Table 2. Terminal Output of the correctness of the x86 and C kernels_
 
-Given a vector with random input and a fixed size, we perform tests on both the C and x86 kernels to compare their outputs. After conducting a total of 30 tests, where the equality check consistently passes, we conclude that the output from the x86 kernel is correct. 
+Given a random vector size and input, we perform tests on both the C and x86 kernels to compare their outputs. After conducting a total of 30 tests, where the equality check consistently passes, we conclude that the output from the x86 kernel is correct. 
