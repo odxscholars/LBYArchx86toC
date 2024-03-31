@@ -1,2 +1,13 @@
-﻿  Performing Custom Build Tools
+﻿  main.c
+C:\Users\shem\source\repos\LBYArchx86toC\main.c(38,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'll'
+  C:\Users\shem\source\repos\LBYArchx86toC\main.c(38,10):
+  consider using '%lld' in the format string
+  C:\Users\shem\source\repos\LBYArchx86toC\main.c(38,10):
+  consider using '%Id' in the format string
+  C:\Users\shem\source\repos\LBYArchx86toC\main.c(38,10):
+  consider using '%I64d' in the format string
+  
+C:\Users\shem\source\repos\LBYArchx86toC\main.c(65,37): warning C4244: 'function': conversion from 'll' to 'int', possible loss of data
+C:\Users\shem\source\repos\LBYArchx86toC\main.c(65,40): warning C4020: 'dot_product_c_kernel': too many actual parameters
+C:\Users\shem\source\repos\LBYArchx86toC\main.c(36,10): warning C4244: 'initializing': conversion from 'double' to 'll', possible loss of data
   LBYArchx86toC.vcxproj -> C:\Users\shem\source\repos\LBYArchx86toC\x64\Debug\LBYArchx86toC.exe

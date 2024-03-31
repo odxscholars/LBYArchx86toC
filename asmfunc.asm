@@ -1,3 +1,7 @@
+; Member 1: Shem Matthew J. Salih
+; Member 2: Luis Gabriel Roxas
+
+
 section .data
 zero_val dq 0
 section .text

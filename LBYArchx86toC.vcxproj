@@ -141,11 +141,18 @@
       <FileType>Document</FileType>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\nasm\SASM\NASM\nasm -f win64 asmfunc.asm</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">asmfunc.obj</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\nasm\SASM\NASM\nasm -f win64 asmfunc.asm</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">asmfunc.obj</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="hello.asm" />
-    <None Include="mult_params.asm" />
+    <None Include="hello.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="mult_params.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
